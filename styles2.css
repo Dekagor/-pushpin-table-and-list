@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ body {
+    min-height: 100vh;
+    background-image: url(design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+body ::before {
+    content: "";
+    background: linear-gradient(rgba(12, 18, 34, 0.75), rgba(32, 38, 55, 0.75));
+    position: absolute;
+    opacity: 6;
+
+}  
+header .title {
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.menu{
+    display: inline;
+    height: 5px;
+
+}
+
+
+header .title a {
+    display: inline;
+}
+
+
+.color {
+    margin-top: 5px;
+    margin-right: 5px;
+    background: #e9ce8f;
+    color: rgb(166, 32, 32);
+    border: 1.8px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
+aside {
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-right: 810px;
+    margin-top: 0;
+
+}
+
+
+ol {
+    margin-top: 15px;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    background: rgb(239, 236, 218);
+    opacity: .8;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.body {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.proximo {
+    background: rgb(157, 103, 103);
+    width: 210px;
+    border-radius: 15px;
+    justify-content: center;
+    font-family: cursive;
+    margin-left: 160px;
+}
+
+.event {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 20px;
+}
+
+.acerca {
+    background: rgb(157, 103, 103);
+    width: 110px;
+    border-radius: 15px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.about {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: cursive;
+}
+
+.contact {
+    background: rgb(157, 103, 103);
+    width: 110px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.mail {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 55px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.rules {
+    background: rgb(157, 103, 103);
+    width: 310px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 490px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    list-style-type: lower-alpha;
+}
+
+.number {
+    list-style-type: decimal;
+}
+.list {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.information {
+    background: rgb(157, 103, 103);
+    width: 170px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 575px;
+}
+
+.table {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+table {
+    padding: 3px;
+}
+
+th {
+width: 400px;
+height: 40px;
+}
+td {
+    text-align: center;
+    height: 40px;
+}
+.additional {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: justify;
+}
+
+.inf {
+text-align: justify;
+margin: 10px;
+}
+.footer {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15px;
+}
